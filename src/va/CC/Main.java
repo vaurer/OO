@@ -18,6 +18,7 @@ public class Main {
         Objektiv superObjektiv = new Objektiv(10, 300);
 
         MemoryCard samsung1 = new MemoryCard("Samsung", 128, 128);
+        MemoryCard kingston1 = new MemoryCard("Kingstone", 256, 256);
 
         f1.setMaxBrennweite(222);
         f1.setMinBrennweite(8);
@@ -36,6 +37,10 @@ public class Main {
             f2.makeFoto(samsung1);
         }
         System.out.println("\nnot enough space on the memory card for another one");
-
+        f2.setMemoryCard(kingston1);
+        while(kingston1.restSize>f2.megapixel){
+            f2.makeFoto(kingston1);
+        }
+        System.out.println("\nyou should buy another memory card");
     }
 }
