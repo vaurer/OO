@@ -1,16 +1,19 @@
 package va.CC;
 
 public class Objektiv {
+
     int minBrennweite;
-
-
     int maxBrennweite;
 
-    public Objektiv(int minBrennweite, int maxBrennweite){
-        this.minBrennweite =minBrennweite;
+    public Objektiv(int minBrennweite, int maxBrennweite) {
+        this.minBrennweite = minBrennweite;
         this.maxBrennweite = maxBrennweite;
     }
 
+    public void setObjektivFromForoaparat(FotoApparat fotoApparat) {
+        this.minBrennweite = fotoApparat.getMinBrennweite();
+        this.maxBrennweite = fotoApparat.getMaxBrennweite();
+    }
 
     public int getMinBrennweite() {
         return minBrennweite;
@@ -27,4 +30,6 @@ public class Objektiv {
     public void setMaxBrennweite(int maxBrennweite) {
         this.maxBrennweite = maxBrennweite;
     }
+
+
 }
