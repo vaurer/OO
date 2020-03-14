@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af737676-5e8c-4acb-9fad-011da28b2631" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/va/CC/MemoryCard.java" afterDir="false" />
+    <list default="true" id="af737676-5e8c-4acb-9fad-011da28b2631" name="Default Changelist" comment="added memoryCard">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OO/va/CC/FotoApparat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OO/va/CC/FotoApparat.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OO/va/CC/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OO/va/CC/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/va/CC/FotoApparat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/va/CC/FotoApparat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/va/CC/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/va/CC/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/va/CC/Objektiv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/va/CC/Objektiv.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,29 +61,45 @@
       <option name="presentableId" value="Default" />
       <updated>1584172926418</updated>
     </task>
+    <task id="LOCAL-00001" summary="added memoryCard">
+      <created>1584186045111</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584186045111</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added memoryCard" />
+    <option name="LAST_COMMIT_MESSAGE" value="added memoryCard" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1085" y="384" key="#com.intellij.ide.util.MemberChooser" timestamp="1584185410519">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1085" y="384" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1584185410519" />
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1584185969474">
+    <state x="934" y="294" key="CommitChangelistDialog2" timestamp="1584187312629">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1584185969474" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1584185969474">
+    <state x="934" y="294" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1584187312629" />
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1584187706432">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1584185969474" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1584185969474">
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1584187706432" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1584187706432">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1584185969474" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1584185969474">
+    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1584187706432" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1584187706431">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1584185969474" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1584187706431" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1584187706432">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1584187706432" />
     <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1584181935790">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -105,5 +116,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1584181935790" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1584186047526">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1584186047526" />
   </component>
 </project>

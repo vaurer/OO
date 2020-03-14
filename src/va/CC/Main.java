@@ -1,5 +1,7 @@
 package va.CC;
 
+import java.sql.SQLOutput;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -27,5 +29,13 @@ public class Main {
         f2.makeFoto(samsung1);
         f2.makeFoto(samsung1);
         f2.makeFoto(samsung1);
+
+        System.out.println("\nAvailable memory:"+samsung1.restSize+"\n");
+
+        while(samsung1.restSize>f2.megapixel){
+            f2.makeFoto(samsung1);
+        }
+        System.out.println("\nnot enough space on the memory card for another one");
+
     }
 }
