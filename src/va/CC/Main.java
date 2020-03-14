@@ -6,9 +6,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        FotoApparat f1 = new FotoApparat("Fuji", "X100V", 26, 10, 23, "Japan", 30);
-        FotoApparat f2 = new FotoApparat("Panasonic", "TZM-DC81", 19, 10, 129, "Japan", 20);
-        FotoApparat f3 = new FotoApparat("Sony", "DSC-HX80", 18, 10, 123, "Japan", 50);
+        MemoryCard memoryCard = new MemoryCard("Samsung", 10, 5);
+
+        FotoApparat f1 = new FotoApparat("Fuji", "X100V", 26, 10, 23, "Japan", memoryCard);
+        FotoApparat f2 = new FotoApparat("Panasonic", "TZM-DC81", 19, 10, 129, "Japan", memoryCard);
+        FotoApparat f3 = new FotoApparat("Sony", "DSC-HX80", 18, 10, 123, "Japan", memoryCard);
 
         f1.printFotoApparat(f1);
         f2.printFotoApparat(f2);
@@ -27,19 +29,19 @@ public class Main {
         f2.setObjektiv(superObjektiv);
         f2.setMemoryCard(samsung1);
         f2.printFotoApparat(f2);
-        f2.makeFoto(samsung1);
-        f2.makeFoto(samsung1);
-        f2.makeFoto(samsung1);
+        f2.makeFoto();
+        f2.makeFoto();
+        f2.makeFoto();
 
         System.out.println("\nAvailable memory:"+samsung1.restSize+"\n");
 
         while(samsung1.restSize>f2.megapixel){
-            f2.makeFoto(samsung1);
+            f2.makeFoto();
         }
         System.out.println("\nnot enough space on the memory card for another one");
         f2.setMemoryCard(kingston1);
         while(kingston1.restSize>f2.megapixel){
-            f2.makeFoto(kingston1);
+            f2.makeFoto();
         }
         System.out.println("\nyou should buy another memory card");
     }

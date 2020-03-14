@@ -9,9 +9,11 @@ public class FotoApparat {
     int maxBrennweite;
     String herkunftsland;
 
-    double memoryCard;
+    MemoryCard memoryCard;
 
-    public FotoApparat(String marke, String model, int megapixel, int minBrennweite, int maxBrennweite, String herkunftsland, double memoryCard) {
+  //  double memoryCard;
+
+    public FotoApparat(String marke, String model, int megapixel, int minBrennweite, int maxBrennweite, String herkunftsland, MemoryCard memoryCard) {
         this.marke = marke;
         this.model = model;
         this.megapixel = megapixel;
@@ -69,11 +71,11 @@ public class FotoApparat {
         this.maxBrennweite = maxBrennweite;
     }
 
-    public double getMemoryCard() {
+    public MemoryCard getMemoryCard() {
         return memoryCard;
     }
 
-    public void setMemoryCard(double memoryCard) {
+    public void setMemoryCard(MemoryCard memoryCard) {
         this.memoryCard = memoryCard;
     }
 
@@ -82,13 +84,9 @@ public class FotoApparat {
         this.minBrennweite = objektiv.getMinBrennweite();
     }
 
-    public void setMemoryCard(MemoryCard memoryCard) {
-        this.memoryCard = memoryCard.size;
-        this.memoryCard = memoryCard.restSize;
-    }
 
-    public void makeFoto(MemoryCard memoryCard){
-        this.memoryCard = memoryCard.restSize;
+
+    public void makeFoto(){
         memoryCard.restSize= memoryCard.restSize-this.megapixel;
         System.out.println("Klick!\nyou have "+memoryCard.restSize + " MB free");
     }

@@ -12,7 +12,7 @@ public class MemoryCard {
     }
 
     public void setMemoryCardFromFotoaparat(FotoApparat fotoaparat) {
-        this.size = fotoaparat.memoryCard;
+        this.size = fotoaparat.getMemoryCard().getSize();
     }
 
     public double getSize() {
